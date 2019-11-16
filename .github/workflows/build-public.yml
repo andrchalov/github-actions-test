@@ -22,6 +22,10 @@ jobs:
         cd public
         npm install
         npm build
+    - name: debug
+      run: |
+        ls -la
+        ls -la public
     - name: upload archive
       uses: actions/upload-artifact@v1
       with:
