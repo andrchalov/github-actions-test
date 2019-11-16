@@ -21,7 +21,7 @@ jobs:
       run: |
         cd public
         npm install
-        npm build
+        npm run build
     - name: debug
       run: |
         ls -la
