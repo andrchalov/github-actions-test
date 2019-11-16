@@ -23,7 +23,7 @@ jobs:
         npm install
         npm build
     - name: upload archive
-      uses: actions/upload-archive@v1
+      uses: actions/upload-artifact@v1
       with:
         name: public
         path: public/dist
