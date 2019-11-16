@@ -1,6 +1,11 @@
 name: Build public
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - public/*/**
 
 jobs:
   build:
