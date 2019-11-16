@@ -16,4 +16,4 @@ jobs:
       run: |
         cd public
         npm install
-        npm test
+        npm build
